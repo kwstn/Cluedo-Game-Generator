@@ -16,7 +16,7 @@ let cluedoAnswer = []
 for (let clue in cluedoCards)   {
     let index = generateRandomNumber(cluedoCards[clue].length)
 
-    switch(card)    {
+    switch(clue)    {
         case 'characters':
             cluedoAnswer.push(`${cluedoCards[clue][index]} was killed`)
             break
