@@ -30,3 +30,10 @@ for (let clue in cluedoCards)   {
             cluedoAnswer.push('I think it was you!')
     }
 }
+
+function formatClueAnswer(answers)  {
+    const formatted = cluedoAnswer.join(' ')
+    console.log(formatted)
+}
+
+formatClueAnswer(cluedoAnswer);
